@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-service" />
+        <module name="zool-client1" />
+        <module name="zool-service" />
+        <module name="eureka-client1" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-client1" options="-parameters" />
+      <module name="eureka-service" options="-parameters" />
+      <module name="microServices" options="-parameters" />
+      <module name="zool-client1" options="-parameters" />
+      <module name="zool-service" options="-parameters" />
+    </option>
+  </component>
+</project>

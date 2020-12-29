@@ -1,0 +1,4 @@
+# Project exclude paths
+/eureka-service/target/
+/target/
+/zool-service/target/
